@@ -3,7 +3,7 @@
  *  Execute : ./binary_search_assigment.c
     @vasu 1910990395
     Program to find square root of number upto 9 decimal places.
-    
+    // changes to upload 
 */
 #include <stdio.h>
 int power(int number,int k) // program to calculate power
@@ -61,6 +61,6 @@ int main() {
         scanf("%d %d",&n,&k); 
 	double x=binary_search(n,k); // storing answer
 	printf("Output -- ");
-	printf("%0.9g",x); // output answer
+	printf("%0.*lf",k,x); // output answer
 	return 0;
 }
